@@ -1,5 +1,5 @@
 from xml.dom.minidom import DOMImplementation
-import numpy as np
+#import numpy as np
 import math
 import sys
 sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
@@ -74,4 +74,3 @@ img_result = cv.drawMatches(raw_image[0],raw_keypoints[0],raw_image[1],raw_keypo
 plt.imshow(img_result),plt.show()
 
 
-print(matches)
